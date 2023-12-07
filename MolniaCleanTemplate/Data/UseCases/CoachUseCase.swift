@@ -6,3 +6,55 @@
 //
 
 import Foundation
+
+class CoachUseCase {
+    
+    var repository: CoachRepository
+    
+    private var coachUserProfile: UserProfile
+    
+    init(_ userProfile: UserProfile) throws {
+        self.coachUserProfile = userProfile
+        
+        guard let coach = try? Coach(from: userProfile) else { throw CoachUseCaseError.failedToInitializeCoachFromUserProfile }
+        repository = CoachRepository(coach)
+    }
+    
+    func getCoach() -> Coach {
+        /// здесь может быть всякая логика, например:
+        /// зпроси данные в репозитории, если их там нет - сходи в сеть, получи
+        /// данные, положи в репозиторий и отдай тому, то вызвал функцию
+        return repository.coach
+    }
+    
+    func getPlayers() -> [Player] {
+        if repository.players.isEmpty {
+              let group = DispatchGroup()
+              group.enter()
+              Task {
+                  await fetchPlayers()
+                  group.leave()
+              }
+              group.wait()
+          }
+          return repository.players
+    }
+    
+    func fetchPlayers() async {
+        guard let playerReferences = coachUserProfile.players else { return }
+        
+        var players: [Player] = []
+        for playerReference in playerReferences {
+            if let playerUserProfile = try? await FirestoreService.shared.fetchUserData(documentReference: playerReference),
+               let player = try? Player(from: playerUserProfile) {
+                players.append(player)
+            }
+        }
+        repository.players = players
+    }
+    
+    enum CoachUseCaseError: Error {
+        case failedToInitializeCoachFromUserProfile
+    }
+
+}

@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class CoachRepository {
+    
+    var coach: Coach
+    var players: [Player] = []
+    
+    init(_ coach: Coach) {
+        self.coach = coach
+    }
+    
+    
+}

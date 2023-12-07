@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7285C909-CDD2-4703-882D-D66529A65D13"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9A3D736-26A1-48A2-BD95-6156395C3E1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Data/UseCases/LoginUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "fetchUserProfile(userID:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9A3D736-26A1-48A2-BD95-6156395C3E1B - 1fd28a2f10c200a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of MolniaCleanTemplate.LoginUseCase.fetchUserProfile(userID: Swift.String, completion: (MolniaCleanTemplate.UserProfile) -&gt; ()) async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/LoginUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "D9A3D736-26A1-48A2-BD95-6156395C3E1B - 7d09d949b7c9c248"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MolniaCleanTemplate.UserProfile) -&gt; () in default argument 1 of MolniaCleanTemplate.LoginUseCase.fetchUserProfile(userID: Swift.String, completion: (MolniaCleanTemplate.UserProfile) -&gt; ()) async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/LoginUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "D9A3D736-26A1-48A2-BD95-6156395C3E1B - 84ab7c386d2f31b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.LoginUseCase.fetchUserProfile(userID: Swift.String, completion: (MolniaCleanTemplate.UserProfile) -&gt; ()) async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/LoginUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "D9A3D736-26A1-48A2-BD95-6156395C3E1B - c9a8c56e1749c7d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MolniaCleanTemplate.LoginUseCase.fetchUserProfile(userID: Swift.String, completion: (MolniaCleanTemplate.UserProfile) -&gt; ()) async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/LoginUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6303C58-E1B5-4E7D-BB4B-4A0493ED4D6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Presentation/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchUserProfile(userID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6303C58-E1B5-4E7D-BB4B-4A0493ED4D6C - eb5aac8346a88148"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.LoginViewModel.fetchUserProfile(userID: Swift.String) -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Presentation/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "D6303C58-E1B5-4E7D-BB4B-4A0493ED4D6C - ea4fb86c365b3f92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in MolniaCleanTemplate.LoginViewModel.fetchUserProfile(userID: Swift.String) -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Presentation/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "D6303C58-E1B5-4E7D-BB4B-4A0493ED4D6C - aaf91a50dfe4e69d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MolniaCleanTemplate.LoginViewModel.fetchUserProfile(userID: Swift.String) -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Presentation/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CD8DDD2-FBBE-4D66-9362-1D9DF62A6BD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Application/AppCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "startUserFlow(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CD8DDD2-FBBE-4D66-9362-1D9DF62A6BD5 - 2920574636c95124"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.AppCoordinator.startUserFlow(for: MolniaCleanTemplate.UserProfile) -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Application/AppCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "3CD8DDD2-FBBE-4D66-9362-1D9DF62A6BD5 - 2920574636c95124"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.AppCoordinator.startUserFlow(for: MolniaCleanTemplate.UserProfile) -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Application/AppCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDD6F3EA-5CF6-43DD-B08E-D33C32D3C68C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Application/AppCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5C667E9-D1C2-4D5F-87F9-914E4FDF4221"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Data/Services/FirestoreService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchUserData(userID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5C667E9-D1C2-4D5F-87F9-914E4FDF4221 - 7d4e0e8e58200a71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.CheckedContinuation&lt;Swift.Optional&lt;MolniaCleanTemplate.UserProfile&gt;, Swift.Error&gt;) -&gt; () in MolniaCleanTemplate.FirestoreService.fetchUserData(userID: Swift.String) async throws -&gt; Swift.Optional&lt;MolniaCleanTemplate.UserProfile&gt;"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/Services/FirestoreService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "A5C667E9-D1C2-4D5F-87F9-914E4FDF4221 - 72f9158457bde775"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MolniaCleanTemplate.UserProfile) -&gt; Swift.Bool in closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.CheckedContinuation&lt;Swift.Optional&lt;MolniaCleanTemplate.UserProfile&gt;, Swift.Error&gt;) -&gt; () in MolniaCleanTemplate.FirestoreService.fetchUserData(userID: Swift.String) async throws -&gt; Swift.Optional&lt;MolniaCleanTemplate.UserProfile&gt;"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/Services/FirestoreService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F01FA57-2E18-47A0-A87D-FA3B4D19F6CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Presentation/Coach/CoachProfile/CoachProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1804362-C859-4075-9A86-6B29B25E66D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Presentation/Coach/CoachMain/CoachMainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D2A0859-1BAC-426E-867D-9216E5532FBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Presentation/Coach/CoachMain/CoachMainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "updateState(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "479CFC57-F428-4518-B289-A18915B8C433"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Presentation/Coach/CoachMain/CoachMainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateState(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF5B4B95-00B3-4011-86E5-694B7460F1FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getPlayers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DF5B4B95-00B3-4011-86E5-694B7460F1FC - bb70cc8809457330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.CoachUseCase.getPlayers() -&gt; Swift.Array&lt;MolniaCleanTemplate.Player&gt;"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "DF5B4B95-00B3-4011-86E5-694B7460F1FC - bb70cc8809457330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.CoachUseCase.getPlayers() -&gt; Swift.Array&lt;MolniaCleanTemplate.Player&gt;"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF0CDCDA-B43F-42B2-8950-06DA05FA6133"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getPlayers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF0CDCDA-B43F-42B2-8950-06DA05FA6133 - bb70cc8809457330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.CoachUseCase.getPlayers() -&gt; Swift.Array&lt;MolniaCleanTemplate.Player&gt;"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "CF0CDCDA-B43F-42B2-8950-06DA05FA6133 - bb70cc8809457330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MolniaCleanTemplate.CoachUseCase.getPlayers() -&gt; Swift.Array&lt;MolniaCleanTemplate.Player&gt;"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D992E49-4BDF-4830-81EE-1D3A64B4F54A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Presentation/Coach/CoachMain/CoachMainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE526A66-0DCC-4368-8428-7B336922275C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchPlayers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE526A66-0DCC-4368-8428-7B336922275C - b5392438994fcedb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MolniaCleanTemplate.CoachUseCase.fetchPlayers() async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "CE526A66-0DCC-4368-8428-7B336922275C - b5392438994fb1d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MolniaCleanTemplate.CoachUseCase.fetchPlayers() async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "CE526A66-0DCC-4368-8428-7B336922275C - 22a9fbf96dea15a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MolniaCleanTemplate.CoachUseCase.fetchPlayers() async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "CE526A66-0DCC-4368-8428-7B336922275C - 95e268665844a7b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MolniaCleanTemplate.CoachUseCase.fetchPlayers() async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "CE526A66-0DCC-4368-8428-7B336922275C - 22a9fbf96dea15a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MolniaCleanTemplate.CoachUseCase.fetchPlayers() async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "CE526A66-0DCC-4368-8428-7B336922275C - 95e268665844a7b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MolniaCleanTemplate.CoachUseCase.fetchPlayers() async -&gt; ()"
+                  moduleName = "MolniaCleanTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lapinmihail/Documents/DEV/MolniaCleanTemplate/MolniaCleanTemplate/Data/UseCases/CoachUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

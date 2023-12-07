@@ -7,6 +7,7 @@
 
 import Foundation
 
-protocol Coordinatable {
-    var coordinator: Coordinator { get set }
+protocol Coordinatable: AnyObject {
+    associatedtype CoordinatorType: Coordinator
+    var coordinator: CoordinatorType? { get set }
 }

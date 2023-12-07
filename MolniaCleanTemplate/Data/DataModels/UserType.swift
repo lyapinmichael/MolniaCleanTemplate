@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum UserType: Codable {
+    case player
+    case coach
+}

@@ -5,4 +5,12 @@
 //  Created by Ляпин Михаил on 06.12.2023.
 //
 
-import Foundation
+import UIKit
+
+protocol Coordinator: AnyObject {
+    
+    var `navigationController`: UINavigationController { get }
+    
+    func start()
+    
+}

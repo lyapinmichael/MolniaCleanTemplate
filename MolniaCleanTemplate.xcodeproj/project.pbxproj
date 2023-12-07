@@ -9,21 +9,63 @@
 /* Begin PBXBuildFile section */
 		EC5F59D62B20FF8D00152521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59D52B20FF8D00152521 /* AppDelegate.swift */; };
 		EC5F59D82B20FF8D00152521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59D72B20FF8D00152521 /* SceneDelegate.swift */; };
-		EC5F59DA2B20FF8D00152521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59D92B20FF8D00152521 /* ViewController.swift */; };
-		EC5F59DD2B20FF8D00152521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5F59DB2B20FF8D00152521 /* Main.storyboard */; };
+		EC5F59DA2B20FF8D00152521 /* CoachMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59D92B20FF8D00152521 /* CoachMainViewController.swift */; };
 		EC5F59DF2B20FF8F00152521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5F59DE2B20FF8F00152521 /* Assets.xcassets */; };
 		EC5F59E22B20FF8F00152521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5F59E02B20FF8F00152521 /* LaunchScreen.storyboard */; };
+		EC5F59EA2B20FFDD00152521 /* CoachProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59E92B20FFDD00152521 /* CoachProfileViewController.swift */; };
+		EC5F59F12B21008B00152521 /* CoachMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59F02B21008B00152521 /* CoachMainViewModel.swift */; };
+		EC5F59F32B2100A700152521 /* CoachProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59F22B2100A700152521 /* CoachProfileViewModel.swift */; };
+		EC5F59F72B2100DA00152521 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59F62B2100DA00152521 /* AppCoordinator.swift */; };
+		EC5F59FA2B21011400152521 /* AppCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59F92B21011400152521 /* AppCoordinatorProtocol.swift */; };
+		EC5F59FC2B2101D800152521 /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59FB2B2101D800152521 /* AppFactory.swift */; };
+		EC5F59FE2B2101EA00152521 /* AppFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F59FD2B2101EA00152521 /* AppFactoryProtocol.swift */; };
+		EC5F5A062B21069300152521 /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A052B21069300152521 /* Coach.swift */; };
+		EC5F5A082B2106C500152521 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A072B2106C500152521 /* Player.swift */; };
+		EC5F5A0B2B21071A00152521 /* CoachRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A0A2B21071A00152521 /* CoachRepository.swift */; };
+		EC5F5A0E2B21072A00152521 /* CoachUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A0D2B21072A00152521 /* CoachUseCase.swift */; };
+		EC5F5A172B2107D100152521 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A162B2107D100152521 /* LoginViewController.swift */; };
+		EC5F5A192B2107E800152521 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A182B2107E800152521 /* LoginViewModel.swift */; };
+		EC5F5A1C2B210E4200152521 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A1B2B210E4200152521 /* Coordinatable.swift */; };
+		EC5F5A1E2B210E6800152521 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A1D2B210E6800152521 /* Coordinator.swift */; };
+		EC5F5A222B21C7D800152521 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A212B21C7D800152521 /* FirestoreService.swift */; };
+		EC5F5A252B21C82500152521 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A242B21C82500152521 /* UserProfile.swift */; };
+		EC5F5A272B21C89F00152521 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A262B21C89F00152521 /* UserType.swift */; };
+		EC5F5A292B21C94700152521 /* MockUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A282B21C94700152521 /* MockUserProfile.swift */; };
+		EC5F5A2B2B21D05E00152521 /* DocumentReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A2A2B21D05E00152521 /* DocumentReference.swift */; };
+		EC5F5A2D2B21D25400152521 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A2C2B21D25400152521 /* LoginUseCase.swift */; };
+		EC5F5A342B21F07500152521 /* NavigationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A332B21F07500152521 /* NavigationFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC5F59D22B20FF8D00152521 /* MolniaCleanTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MolniaCleanTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5F59D52B20FF8D00152521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC5F59D72B20FF8D00152521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC5F59D92B20FF8D00152521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC5F59DC2B20FF8D00152521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5F59D92B20FF8D00152521 /* CoachMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachMainViewController.swift; sourceTree = "<group>"; };
 		EC5F59DE2B20FF8F00152521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5F59E12B20FF8F00152521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5F59E32B20FF8F00152521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5F59E92B20FFDD00152521 /* CoachProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachProfileViewController.swift; sourceTree = "<group>"; };
+		EC5F59F02B21008B00152521 /* CoachMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachMainViewModel.swift; sourceTree = "<group>"; };
+		EC5F59F22B2100A700152521 /* CoachProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachProfileViewModel.swift; sourceTree = "<group>"; };
+		EC5F59F62B2100DA00152521 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EC5F59F92B21011400152521 /* AppCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		EC5F59FB2B2101D800152521 /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		EC5F59FD2B2101EA00152521 /* AppFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactoryProtocol.swift; sourceTree = "<group>"; };
+		EC5F5A052B21069300152521 /* Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
+		EC5F5A072B2106C500152521 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EC5F5A0A2B21071A00152521 /* CoachRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachRepository.swift; sourceTree = "<group>"; };
+		EC5F5A0D2B21072A00152521 /* CoachUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachUseCase.swift; sourceTree = "<group>"; };
+		EC5F5A162B2107D100152521 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC5F5A182B2107E800152521 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC5F5A1B2B210E4200152521 /* Coordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		EC5F5A1D2B210E6800152521 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EC5F5A212B21C7D800152521 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		EC5F5A242B21C82500152521 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		EC5F5A262B21C89F00152521 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		EC5F5A282B21C94700152521 /* MockUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserProfile.swift; sourceTree = "<group>"; };
+		EC5F5A2A2B21D05E00152521 /* DocumentReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentReference.swift; sourceTree = "<group>"; };
+		EC5F5A2C2B21D25400152521 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		EC5F5A332B21F07500152521 /* NavigationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,156 @@
 		EC5F59D42B20FF8D00152521 /* MolniaCleanTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				EC5F59D52B20FF8D00152521 /* AppDelegate.swift */,
-				EC5F59D72B20FF8D00152521 /* SceneDelegate.swift */,
-				EC5F59D92B20FF8D00152521 /* ViewController.swift */,
-				EC5F59DB2B20FF8D00152521 /* Main.storyboard */,
+				EC5F59EB2B21003500152521 /* Application */,
+				EC5F59EC2B21004400152521 /* Presentation */,
+				EC5F5A092B2106FF00152521 /* Data */,
+				EC5F5A022B21066D00152521 /* Domain */,
 				EC5F59DE2B20FF8F00152521 /* Assets.xcassets */,
 				EC5F59E02B20FF8F00152521 /* LaunchScreen.storyboard */,
 				EC5F59E32B20FF8F00152521 /* Info.plist */,
 			);
 			path = MolniaCleanTemplate;
+			sourceTree = "<group>";
+		};
+		EC5F59EB2B21003500152521 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F59D52B20FF8D00152521 /* AppDelegate.swift */,
+				EC5F59D72B20FF8D00152521 /* SceneDelegate.swift */,
+				EC5F59F62B2100DA00152521 /* AppCoordinator.swift */,
+				EC5F59FB2B2101D800152521 /* AppFactory.swift */,
+				EC5F5A332B21F07500152521 /* NavigationFlow.swift */,
+				EC5F59F82B21010300152521 /* Interfaces */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC5F59EC2B21004400152521 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F59FF2B2102D800152521 /* Login */,
+				EC5F59ED2B21005000152521 /* Coach */,
+				EC5F5A1F2B210E8B00152521 /* Interfaces */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EC5F59ED2B21005000152521 /* Coach */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F59EF2B21007700152521 /* CoachProfile */,
+				EC5F59EE2B21006800152521 /* CoachMain */,
+			);
+			path = Coach;
+			sourceTree = "<group>";
+		};
+		EC5F59EE2B21006800152521 /* CoachMain */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F59D92B20FF8D00152521 /* CoachMainViewController.swift */,
+				EC5F59F02B21008B00152521 /* CoachMainViewModel.swift */,
+			);
+			path = CoachMain;
+			sourceTree = "<group>";
+		};
+		EC5F59EF2B21007700152521 /* CoachProfile */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F59E92B20FFDD00152521 /* CoachProfileViewController.swift */,
+				EC5F59F22B2100A700152521 /* CoachProfileViewModel.swift */,
+			);
+			path = CoachProfile;
+			sourceTree = "<group>";
+		};
+		EC5F59F82B21010300152521 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F59F92B21011400152521 /* AppCoordinatorProtocol.swift */,
+				EC5F59FD2B2101EA00152521 /* AppFactoryProtocol.swift */,
+				EC5F5A1D2B210E6800152521 /* Coordinator.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EC5F59FF2B2102D800152521 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A162B2107D100152521 /* LoginViewController.swift */,
+				EC5F5A182B2107E800152521 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EC5F5A022B21066D00152521 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A032B21067E00152521 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EC5F5A032B21067E00152521 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A052B21069300152521 /* Coach.swift */,
+				EC5F5A072B2106C500152521 /* Player.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EC5F5A092B2106FF00152521 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A202B21C7C100152521 /* Services */,
+				EC5F5A232B21C80700152521 /* DataModels */,
+				EC5F5A0C2B21071E00152521 /* UseCases */,
+				EC5F5A0F2B21073200152521 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EC5F5A0C2B21071E00152521 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A0D2B21072A00152521 /* CoachUseCase.swift */,
+				EC5F5A2C2B21D25400152521 /* LoginUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		EC5F5A0F2B21073200152521 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A0A2B21071A00152521 /* CoachRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EC5F5A1F2B210E8B00152521 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A1B2B210E4200152521 /* Coordinatable.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EC5F5A202B21C7C100152521 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A212B21C7D800152521 /* FirestoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC5F5A232B21C80700152521 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F5A242B21C82500152521 /* UserProfile.swift */,
+				EC5F5A262B21C89F00152521 /* UserType.swift */,
+				EC5F5A282B21C94700152521 /* MockUserProfile.swift */,
+				EC5F5A2A2B21D05E00152521 /* DocumentReference.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +310,6 @@
 			files = (
 				EC5F59E22B20FF8F00152521 /* LaunchScreen.storyboard in Resources */,
 				EC5F59DF2B20FF8F00152521 /* Assets.xcassets in Resources */,
-				EC5F59DD2B20FF8D00152521 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +320,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5F59DA2B20FF8D00152521 /* ViewController.swift in Sources */,
+				EC5F5A172B2107D100152521 /* LoginViewController.swift in Sources */,
+				EC5F5A222B21C7D800152521 /* FirestoreService.swift in Sources */,
+				EC5F5A252B21C82500152521 /* UserProfile.swift in Sources */,
+				EC5F59DA2B20FF8D00152521 /* CoachMainViewController.swift in Sources */,
+				EC5F5A2D2B21D25400152521 /* LoginUseCase.swift in Sources */,
+				EC5F59FE2B2101EA00152521 /* AppFactoryProtocol.swift in Sources */,
+				EC5F5A342B21F07500152521 /* NavigationFlow.swift in Sources */,
 				EC5F59D62B20FF8D00152521 /* AppDelegate.swift in Sources */,
+				EC5F5A062B21069300152521 /* Coach.swift in Sources */,
+				EC5F5A0E2B21072A00152521 /* CoachUseCase.swift in Sources */,
+				EC5F5A082B2106C500152521 /* Player.swift in Sources */,
+				EC5F5A1C2B210E4200152521 /* Coordinatable.swift in Sources */,
+				EC5F5A292B21C94700152521 /* MockUserProfile.swift in Sources */,
+				EC5F59F32B2100A700152521 /* CoachProfileViewModel.swift in Sources */,
+				EC5F5A272B21C89F00152521 /* UserType.swift in Sources */,
+				EC5F5A0B2B21071A00152521 /* CoachRepository.swift in Sources */,
+				EC5F59EA2B20FFDD00152521 /* CoachProfileViewController.swift in Sources */,
+				EC5F5A2B2B21D05E00152521 /* DocumentReference.swift in Sources */,
+				EC5F5A1E2B210E6800152521 /* Coordinator.swift in Sources */,
+				EC5F59FC2B2101D800152521 /* AppFactory.swift in Sources */,
+				EC5F59F72B2100DA00152521 /* AppCoordinator.swift in Sources */,
+				EC5F59FA2B21011400152521 /* AppCoordinatorProtocol.swift in Sources */,
 				EC5F59D82B20FF8D00152521 /* SceneDelegate.swift in Sources */,
+				EC5F59F12B21008B00152521 /* CoachMainViewModel.swift in Sources */,
+				EC5F5A192B2107E800152521 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC5F59DB2B20FF8D00152521 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC5F59DC2B20FF8D00152521 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC5F59E02B20FF8F00152521 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +493,9 @@
 				INFOPLIST_FILE = MolniaCleanTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +521,9 @@
 				INFOPLIST_FILE = MolniaCleanTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

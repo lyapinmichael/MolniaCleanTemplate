@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+/// В рамках этого проекта для демонстрации кладу сюда айдишку объекта как простую строку,
+/// на реальном проекте здесь FIRDocumentReference
+typealias DocumentReference = String
