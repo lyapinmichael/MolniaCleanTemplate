@@ -9,6 +9,7 @@ import Foundation
 class CoachMainViewModel {
     
     private let useCase: CoachUseCase
+    private let repository: CoachRepository
     
     private(set) var state: State = .initial {
         didSet {
@@ -18,8 +19,13 @@ class CoachMainViewModel {
     
     var onStateDidChange: ((State) -> Void)?
     
-    init(useCase: CoachUseCase) {
+    init(useCase: CoachUseCase, repository: CoachRepository) {
         self.useCase = useCase
+        self.repository = repository
+        
+        repository.players.bind { [weak self] players in
+            self?.state = .didLoadPlayers(players)
+        }
     }
     
     func updateState(with viewInput: ViewInput) {

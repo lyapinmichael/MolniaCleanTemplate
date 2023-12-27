@@ -28,16 +28,13 @@ class CoachUseCase {
     }
     
     func getPlayers() -> [Player] {
-        if repository.players.isEmpty {
-              let group = DispatchGroup()
-              group.enter()
-              Task {
-                  await fetchPlayers()
-                  group.leave()
-              }
-              group.wait()
-          }
-          return repository.players
+        if repository.players.value.isEmpty {
+            Task {
+                await fetchPlayers()
+            }
+        }
+        return repository.players.value
+        
     }
     
     func fetchPlayers() async {
@@ -50,11 +47,15 @@ class CoachUseCase {
                 players.append(player)
             }
         }
-        repository.players = players
+        repository.players.value = players
+    }
+    
+    func sendToServer(newName: String, completion: @escaping (Error?) -> Void ) {
+        
     }
     
     enum CoachUseCaseError: Error {
         case failedToInitializeCoachFromUserProfile
     }
-
+    
 }

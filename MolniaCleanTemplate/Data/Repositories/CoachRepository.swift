@@ -10,7 +10,7 @@ import Foundation
 class CoachRepository {
     
     var coach: Coach
-    var players: [Player] = []
+    var players: Observable<[Player]> = .init(value: [])
     
     init(_ coach: Coach) {
         self.coach = coach

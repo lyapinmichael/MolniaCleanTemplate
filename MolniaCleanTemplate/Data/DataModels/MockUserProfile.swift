@@ -16,11 +16,18 @@ class MockUserProfile {
                            players: nil,
                            coach: "101")
     
+    static var mockPlayer2 = UserProfile(id: "002",
+                            userType: .player,
+                            firstName: "Petr",
+                            lastName: "Pavel",
+                            players: nil,
+                            coach: "101")
+    
     static var mockCoach1 = UserProfile(id: "101",
                            userType: .coach,
                            firstName: "Ivan",
                            lastName: "Zalupkin",
-                           players: ["001"],
+                           players: ["001", "002"],
                            coach: nil)
    
 }

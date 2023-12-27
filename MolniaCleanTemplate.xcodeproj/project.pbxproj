@@ -34,6 +34,7 @@
 		EC5F5A2B2B21D05E00152521 /* DocumentReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A2A2B21D05E00152521 /* DocumentReference.swift */; };
 		EC5F5A2D2B21D25400152521 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A2C2B21D25400152521 /* LoginUseCase.swift */; };
 		EC5F5A342B21F07500152521 /* NavigationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F5A332B21F07500152521 /* NavigationFlow.swift */; };
+		ECFEE4C92B3C961000637883 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEE4C82B3C961000637883 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		EC5F5A2A2B21D05E00152521 /* DocumentReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentReference.swift; sourceTree = "<group>"; };
 		EC5F5A2C2B21D25400152521 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
 		EC5F5A332B21F07500152521 /* NavigationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFlow.swift; sourceTree = "<group>"; };
+		ECFEE4C82B3C961000637883 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				EC5F59F92B21011400152521 /* AppCoordinatorProtocol.swift */,
-				EC5F59FD2B2101EA00152521 /* AppFactoryProtocol.swift */,
 				EC5F5A1D2B210E6800152521 /* Coordinator.swift */,
+				EC5F59FD2B2101EA00152521 /* AppFactoryProtocol.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				EC5F5A1B2B210E4200152521 /* Coordinatable.swift */,
+				ECFEE4C82B3C961000637883 /* Observable.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFEE4C92B3C961000637883 /* Observable.swift in Sources */,
 				EC5F5A172B2107D100152521 /* LoginViewController.swift in Sources */,
 				EC5F5A222B21C7D800152521 /* FirestoreService.swift in Sources */,
 				EC5F5A252B21C82500152521 /* UserProfile.swift in Sources */,

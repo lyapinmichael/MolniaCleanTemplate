@@ -11,7 +11,7 @@ class FirestoreService {
     
     static let shared = FirestoreService()
     
-    private var mockData = [MockUserProfile.mockCoach1, MockUserProfile.mockPlayer1]
+    private var mockData = [MockUserProfile.mockCoach1, MockUserProfile.mockPlayer1, MockUserProfile.mockPlayer2]
     
     func fetchUserData(userID: String) async throws -> UserProfile? {
        /// Не углубляйтесь пока сюда, это нужно просто для симуляции асинхронного возврата с задержкой

@@ -18,8 +18,9 @@ class AppFactory: AppFactoryProtocol {
             return NavigationFlow.empty
         case .coach:
             guard let coachUseCase = try? CoachUseCase(userProfile) else { return  NavigationFlow.empty }
+            let repository = coachUseCase.repository
             
-            let coachMainViewModel = CoachMainViewModel(useCase: coachUseCase)
+            let coachMainViewModel = CoachMainViewModel(useCase: coachUseCase, repository: repository)
             let coachMainViewController = CoachMainViewController(viewModel: coachMainViewModel)
             let coachMainTabBarItem = UITabBarItem(title: "Main", image: UIImage(systemName: "house"), tag: 0)
             coachMainViewController.tabBarItem = coachMainTabBarItem
